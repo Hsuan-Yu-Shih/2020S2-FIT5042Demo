@@ -52,12 +52,12 @@ public class RealEstateAgency {
         Property property5 = new Property(5, "82 Spring Rd, Hampton East VIC 3188, Australia", 1, 60, 820000);
 		
         try {
-        propertyRepository.addProperty(property1);
-		propertyRepository.addProperty(property2);
-		propertyRepository.addProperty(property3);
-		propertyRepository.addProperty(property4);
-		propertyRepository.addProperty(property5);
-		System.out.println("5 properties added successfully");
+        	propertyRepository.addProperty(property1);
+        	propertyRepository.addProperty(property2);
+        	propertyRepository.addProperty(property3);
+        	propertyRepository.addProperty(property4);
+        	propertyRepository.addProperty(property5);
+        	System.out.println("5 properties added successfully");
         }catch(Exception e) {
         	System.out.println("Fail to add properties");
         }
