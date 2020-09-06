@@ -20,5 +20,5 @@ public interface CompareProperty  {
 
     public void removeProperty(Property property);
 
-    CompareProperty create() throws CreateException, RemoteException;
+    CompareProperty create() throws CreateException, RemoteException; // siglton 
 }
