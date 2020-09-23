@@ -3,10 +3,6 @@
     <option name="visitedUrls">
       <list>
         <UrlAndUserName>
-          <option name="url" value="https://gitlab.com/hshi0043/2020s2-fit5042demo.git" />
-          <option name="userName" value="" />
-        </UrlAndUserName>
-        <UrlAndUserName>
           <option name="url" value="http://gitlab.com" />
           <option name="userName" value="hshi0043" />
         </UrlAndUserName>
@@ -16,7 +12,6 @@
         </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\user\eclipse-workspace\FIT5042\week6" />
   </component>
   <component name="VcsApplicationSettings">
     <option name="COMMIT_FROM_LOCAL_CHANGES" value="true" />
