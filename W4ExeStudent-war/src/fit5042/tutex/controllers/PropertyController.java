@@ -50,7 +50,7 @@ public class PropertyController {
                             .getValue(context, null, "propertyApplication");
             // -1 to propertyId since we +1 in JSF (to always have positive property id!) 
             return app.getProperties().get(--propertyId); //this propertyId is the index, don't confuse with the Property Id
-        }
+        }	
         return property;
     }
 }
