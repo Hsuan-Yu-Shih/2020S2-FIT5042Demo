@@ -15,7 +15,8 @@ import fit5042.tutex.repository.entities.Loan;
 @SessionScoped
 public class LoanManagedBean implements Serializable {
 
-	@EJB private MonthlyPaymentCalculator calculator;
+	@EJB 
+	private MonthlyPaymentCalculator calculator;
 	private Loan loan;
 	public LoanManagedBean() {
 		this.loan = new Loan();
