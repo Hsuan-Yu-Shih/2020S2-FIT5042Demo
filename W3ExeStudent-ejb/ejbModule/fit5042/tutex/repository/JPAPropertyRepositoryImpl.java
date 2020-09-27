@@ -21,7 +21,7 @@ public class JPAPropertyRepositoryImpl implements PropertyRepository {
     }
 	
 	public void initialisePropertyList() {
-    	propertyList.clear();
+    	propertyList.clear(); //like remove the old table each time the user invoke the system
     	
     	propertyList.add(CommonInstance.PROPERTY_FIRST);
     	propertyList.add(CommonInstance.PROPERTY_SECOND);

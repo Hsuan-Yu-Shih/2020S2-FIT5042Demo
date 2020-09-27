@@ -24,5 +24,5 @@ public class CommonInstance {
 	public final static Property PROPERTY_THIRD = new Property(3, ADDRESS_THIRD, 3, 150.00, 600000.00, CONTACT_PERSON_SECOND, null);
 	public final static Property PROPERTY_FOURTH = new Property(4, ADDRESS_FOURTH, 5, 150.00, 553000.00, CONTACT_PERSON_THIRD, null);
 	
-	public final static PropertyRepository PROPERTY_REPOSITORY = new JPAPropertyRepositoryImpl();
+	public final static PropertyRepository PROPERTY_REPOSITORY = new JPAPropertyRepositoryImpl(); //??
 }

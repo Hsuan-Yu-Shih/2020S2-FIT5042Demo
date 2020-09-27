@@ -60,7 +60,7 @@ public class PropertyManagedBean implements Serializable {
      */
     public PropertyManagedBean() {
         selectedId = 0;
-//        compareProperty = new ComparePropertySessionBean();
+//      compareProperty = new ComparePropertySessionBean();
     }
 
     public List<Property> getAllProperties() {

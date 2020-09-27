@@ -75,7 +75,7 @@ public class ComparePropertySessionBean implements CompareProperty{
     
     /**
     *
-    * I am not sure why do we need to create a new compare property  and ejb here
+    * I am not sure why do we need to create a new compare property and ejb here
     * 
     * @return 
     * @throws javax.ejb.CreateException
